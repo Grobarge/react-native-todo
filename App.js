@@ -15,8 +15,13 @@ export default class App extends React.Component {
       todoInput: '',
       todos: [
         // Dummy Data
-        { id: 0, title: 'Take Out the trash', done: false },
-        { id: 1, title: 'Cook dinner', done: false }
+        { id: 0, title: 'Listen to some Jerry Garcia', done: true },
+        { id: 1, title: 'Code', done: true },
+        { id: 2, title: 'Watch Live PD', done: false },
+        { id: 3, title: 'Eat', done: false },
+        { id: 4, title: 'Drink Coffee', done: false },
+        { id: 5, title: 'Fix the Sink', done: false },
+        { id: 6, title: 'Do the dishes', done: true }
       ]
     }
   }
